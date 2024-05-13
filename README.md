@@ -3,6 +3,7 @@ The Royal Bank of Flatiron
 
 Authors
 Charles Mumo
+
 Description
 This is a basic web application built in React that keeps track of transactions.
 
