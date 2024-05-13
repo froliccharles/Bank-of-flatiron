@@ -4,7 +4,7 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+} 
+/*styling the h1 element*/
+h1.App {
+  background-color: rgb(96, 47, 173);
+  color: white; /* Set text color to contrast with background */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Align text to the center */
+}
+
+
+/* styling the table */
+.my-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.my-table th,
+.my-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd; /* Add bottom border to all table cells */
+  text-align: left;
+}
+
+.my-table th {
+  background-color: #f2f2f2;
+  border-right: 1px solid #ddd; /* Add right border to table header cells */
+}
+
+.my-table td {
+  border-right: 1px solid #ddd; /* Add right border to table data cells */
+}
+
+.my-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.my-table tbody tr:hover {
+  background-color: #ddd;
 }
